@@ -60,9 +60,7 @@ func (cc ChainConfig) EthereumConfig(chainID *big.Int) *geth.ChainConfig {
 }
 
 func DefaultChainConfig(chainID string) *ChainConfig {
-	if chainID == "" {
-		chainID = testChainID
-	}
+	chainID = testChainID
 
 	eip155ChainID, err := types.ParseChainID(chainID)
 	if err != nil {
