@@ -16,7 +16,7 @@ HOMEDIR="$HOME/.tmp-evmosd"
 TRACE=""
 
 # feemarket params basefee
-BASEFEE=1000000000
+BASEFEE=1
 
 # Path variables
 CONFIG=$HOMEDIR/config/config.toml
